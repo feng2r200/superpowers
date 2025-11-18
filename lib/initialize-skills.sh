@@ -2,7 +2,7 @@
 set -euo pipefail
 
 SKILLS_DIR="${HOME}/.config/superpowers/skills"
-SKILLS_REPO="https://github.com/obra/superpowers-skills.git"
+SKILLS_REPO="https://github.com/feng2r200/superpowers-skills.git"
 
 # Check if skills directory exists and is a valid git repo
 if [ -d "$SKILLS_DIR/.git" ]; then
@@ -75,7 +75,7 @@ if command -v gh &> /dev/null; then
     echo
 
     if [[ $REPLY =~ ^[Yy]$ ]]; then
-        gh repo fork obra/superpowers-skills --remote=true
+        gh repo fork feng2r200/superpowers-skills --remote=true
         echo "Forked! You can now contribute skills back to the community."
     else
         git remote add upstream "$SKILLS_REPO"

@@ -1,4 +1,4 @@
-# Superpowers
+# Superpowers (forked from obra/superpowers)
 
 A comprehensive skills library of proven techniques, patterns, and workflows for AI coding assistants.
 
@@ -26,7 +26,7 @@ Read the introduction: [Superpowers for Claude Code](https://blog.fsck.com/2025/
 In Claude Code, register the marketplace first:
 
 ```bash
-/plugin marketplace add obra/superpowers-marketplace
+/plugin marketplace add feng2r200/superpowers-marketplace
 ```
 
 Then install the plugin from this marketplace:
@@ -54,7 +54,7 @@ Check that commands appear:
 
 **Note:** Codex support is experimental and may require refinement based on user feedback.
 
-Tell Codex to fetch https://raw.githubusercontent.com/obra/superpowers/refs/heads/main/.codex/INSTALL.md and follow the instructions.
+Tell Codex to fetch https://raw.githubusercontent.com/feng2r200/superpowers/refs/heads/main/.codex/INSTALL.md and follow the instructions.
 
 ## Quick Start
 
@@ -163,5 +163,5 @@ MIT License - see LICENSE file for details
 
 ## Support
 
-- **Issues**: https://github.com/obra/superpowers/issues
-- **Marketplace**: https://github.com/obra/superpowers-marketplace
+- **Issues**: https://github.com/feng2r200/superpowers/issues
+- **Marketplace**: https://github.com/feng2r200/superpowers-marketplace
